@@ -520,18 +520,6 @@ var loadPortfolioSinglePage = function(id, href) {
 
 };
 
-var jarallaxPlugin = function() {
-	$('.jarallax').jarallax({
-    speed: 0.2
-	});
-	jarallax(document.querySelectorAll('.jarallax-video'), {
-    speed: 0.2,
-    videoSrc: 'https://www.youtube.com/watch?v=mwtbEGNABWU',
-    videoStartTime: 8,
-    videoEndTime: 70,
-	});
-};
-
 var contactForm = function() {
 	if ($('#contactForm').length > 0 ) {
 		$( "#contactForm" ).validate( {
